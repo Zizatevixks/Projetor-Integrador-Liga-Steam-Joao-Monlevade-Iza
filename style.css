@@ -8,7 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: PaleGreen;
+    background-color: CadetBlue;
 }
 
 /* ===== AQUI COMEÇA O QUE É SEU =====
@@ -71,7 +71,7 @@ main {
 }
 
 .destaque:hover {
-    background-color: moccasin;
+    background-color: LightSteelBlue;
 }
 
 .destaque p:hover{
@@ -89,6 +89,34 @@ img:hover {
     height: 280px;
     cursor:pointer;
 }
+
+form{
+    width: 50%;
+    border: 1px solid beige;
+    border-radius: 1rem;
+    padding: 1rem; /* acrescenta um espaço entre a borda e o conteúdo*/
+    background-color: LightSteelBlue;
+}
+
+form h2{
+    font-size: medium;
+    text-align: justify;
+    color: rgb(8, 49, 49);
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+}
+
+form label{
+
+}
+
+form input{}
+
+form botton{}
 
 footer {
     /* TODO: pequenininho, no fim, com a sua autoria */

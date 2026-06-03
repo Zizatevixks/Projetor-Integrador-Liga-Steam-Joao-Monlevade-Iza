@@ -6,9 +6,9 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Playfair Display", Georgia, serif;
     line-height: 1.6;
-    background-color: CadetBlue;
+    background-color: #F5F7F2;
 }
 
 /* ===== AQUI COMEÇA O QUE É SEU =====
@@ -20,8 +20,8 @@ body {
     */
 
 header {
-    background-color: #0B4F35;
-    color: beige;
+    background-color: #2D5A27;
+    color: #F5F7F2;
     padding: 1rem;
     text-align: center;
     position: sticky;
@@ -30,6 +30,8 @@ header {
 
 header h1 {
     /* TODO: tamanho da fonte, alinhamento */
+    text-align: center;
+    font-style: italic;
 }
 
 main {
@@ -46,27 +48,28 @@ main {
 
 .destaque {
     /* TODO: este é o bloco principal da sua mensagem.
-         Faça ele se destacar visualmente do resto. */
-         text-align: center;
-         border: 1px solid #0B4F35;
-         padding: 1rem;
-         background-color: beige;
-         max-width: 50%;
-         border-radius: 1rem;
+    Faça ele se destacar visualmente do resto. */
+    text-align: center;
+    font-style: italic;
+    border: 1px solid #1B2F17;
+    padding: 1rem;
+    background-color: #DCE4D6;
+    max-width: 50%;
+    border-radius: 1rem;
 }
 
-.destaque h2{
+.destaque h2 {
     /* TODO: este é o bloco principal da sua mensagem.
-         Faça ele se destacar visualmente do resto. */
-        font-size: 1.3rem;
-        color: #0B4F35;
-        font-weight: bold;
-        word-wrap: break-word;
+    Faça ele se destacar visualmente do resto. */
+    font-size: 1.3rem;
+    color: #1B2F17;
+    font-weight: bold;
+    word-wrap: break-word;
 }
 
-.destaque p{
+.destaque p {
     text-align: left;
-    color: #41424C;
+    color: #1B2F17;
     font-size: 0.9rem;
 }
 
@@ -74,8 +77,8 @@ main {
     background-color: LightSteelBlue;
 }
 
-.destaque p:hover{
-        color: #0B4F35;
+.destaque p:hover {
+    color: #1B2F17;
 }
 
 img {
@@ -87,41 +90,49 @@ img {
 img:hover {
     width: 380px;
     height: 280px;
-    cursor:pointer;
+    cursor: pointer;
 }
 
-form{
+form {
     width: 50%;
-    border: 1px solid beige;
+    border: 1px solid #5A6E59;
     border-radius: 1rem;
-    padding: 1rem; /* acrescenta um espaço entre a borda e o conteúdo*/
-    background-color: LightSteelBlue;
+    padding: 1rem;
+    /* acrescenta um espaço entre a borda e o conteúdo*/
+    background-color: #DCE4D6;
 }
 
-form h2{
+form h2 {
     font-size: medium;
     text-align: justify;
     color: rgb(8, 49, 49);
 }
 
-form div{
+form div {
     display: flex;
     flex-direction: column;
     margin: 0.5rem;
 }
 
-form label{
+form label {}
 
+form input {}
+
+form button {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0.5rem;
+    background-color: #2D5A27;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #F5F7F2;
 }
-
-form input{}
-
-form botton{}
 
 footer {
     /* TODO: pequenininho, no fim, com a sua autoria */
-    background-color: #0B4F35;
-    color: beige;
+    background-color: #2D5A27;
+    color: #F5F7F2;
     padding: 1rem;
-    text-align: center; 
+    text-align: center;
 }

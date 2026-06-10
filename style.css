@@ -23,7 +23,7 @@ body {
     */
 
 header {
-    background-color: #2D5A27;
+    background-color: #1B2F17;
     color: #F5F7F2;
     padding: 1rem;
     text-align: center;
@@ -60,7 +60,7 @@ main {
     text-align: center;
     letter-spacing: 0.05cap;
     font-style: italic;
-    border: 1px solid #1B2F17;
+    border: 1px solid #2D5A27;
     padding: 1rem;
     background-color: #F5F7F2;
     max-width: 80%;
@@ -162,7 +162,7 @@ footer {
     /* TODO: pequenininho, no fim, com a sua autoria */
     color: #F5F7F2;
     text-align: center;
-    background-color: #2D5A27;
+    background-color: #1B2F17;
     padding: 1rem;
     text-align: center;
 }

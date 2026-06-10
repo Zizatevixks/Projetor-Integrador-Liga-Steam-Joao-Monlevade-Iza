@@ -14,7 +14,6 @@ body {
 }
 
 
-
 /* ===== AQUI COMEÇA O QUE É SEU =====
        Estilize o cabeçalho, o conteúdo e o rodapé.
        Dicas de propriedades pra brincar:
@@ -59,6 +58,7 @@ main {
     /* TODO: este é o bloco principal da sua mensagem.
     Faça ele se destacar visualmente do resto. */
     text-align: center;
+    letter-spacing: 0.05cap;
     font-style: italic;
     border: 1px solid #1B2F17;
     padding: 1rem;
@@ -128,9 +128,20 @@ form div {
     margin: 0.5rem;
 }
 
-form label {}
+form label {
+    display: block;
+    margin-bottom: 3px;
+    color: #2D5A27;
+    font-weight: bold
+}
 
-form input {}
+form input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: px;
+    border: 1px solid #2D5A27;
+    border-radius: 3px;
+}
 
 form button {
     width: 50%;
@@ -155,3 +166,4 @@ footer {
     padding: 1rem;
     text-align: center;
 }
+
